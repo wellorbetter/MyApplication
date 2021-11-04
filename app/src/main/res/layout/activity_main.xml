@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_100"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:gravity="center"
+        android:text="大学生成绩评估"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/ed1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape"
+                android:gravity="center"
+                android:hint="请输入数学成绩"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/ed2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/shape"
+                android:gravity="center"
+                android:hint="请输入学科学分"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/ed3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:gravity="center"
+                android:hint="请输入语文成绩"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/ed4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:gravity="center"
+                android:hint="请输入学科学分"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/ed5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:gravity="center"
+                android:hint="请输入英语成绩"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/ed6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:gravity="center"
+                android:hint="请输入学科学分"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/ed7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:gravity="center"
+                android:hint="请输入计算机成绩"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/ed8"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:gravity="center"
+                android:hint="请输入学科学分"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="确定"
+        android:id="@+id/btn"
+        android:layout_marginTop="10dp"
+        android:background="#650BD5CE"
+        android:layout_marginBottom="40dp"
+        android:clickable="true"
+        android:onClick="bn"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:textColor="#A90A707E"
+        android:textSize="20dp" />
+
+
+</LinearLayout>
